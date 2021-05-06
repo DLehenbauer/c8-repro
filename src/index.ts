@@ -4,8 +4,3 @@
  */
 
 export * from './InspectorTable';
-export * from './InspectorTableTypes';
-export * from './PropertyDataCreationHandlers';
-export * from './icons';
-export * from './ModalManager';
-export * from './ModalRoot';

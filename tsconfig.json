@@ -1,6 +1,20 @@
 {
-  "extends": "@fluidframework/build-common/ts-common-config.json",
   "compilerOptions": {
+    "target": "es2017",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "noImplicitAny": false,
+    "incremental": true,
+    "types": [],
+    "strict": true,
+    "pretty": true,
+    "lib": [ "ES2017", "ES2018.Promise", "DOM", "DOM.Iterable" ],
     "jsx": "react",
     "resolveJsonModule": true,
     "typeRoots": [

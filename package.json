@@ -14,21 +14,10 @@
     "index.js"
   ],
   "scripts": {
-    "build": "concurrently npm:build:compile npm:lint",
-    "build:compile": "concurrently npm:tsc npm:build:webpack",
-    "build:full": "npm run build",
-    "build:full:compile": "npm run build:compile",
-    "build:webpack": "npm run webpack",
-    "clean": "rimraf dist *.tsbuildinfo *.build.log",
-    "eslint": "eslint --format stylish src",
-    "eslint:fix": "eslint --format stylish src --fix",
-    "lint": "npm run eslint",
-    "lint:fix": "npm run eslint:fix",
-    "prepack": "npm run webpack",
-    "storybook": "start-storybook -p 6006",
+    "build": "npm run webpack",
+    "clean": "rimraf nyc dist *.tsbuildinfo *.build.log",
     "test": "jest",
     "test:coverage": "c8 npm run test -- --ci --reporters=default --reporters=jest-junit",
-    "tsc": "tsc",
     "webpack": "webpack --config webpack.prod.js --env.production"
   },
   "c8": {
@@ -70,18 +59,13 @@
     "react-base-table": "1.0.2",
     "react-loading-skeleton": "^1.1.2",
     "react-select": "^2.4.3",
-    "react-virtualized-auto-sizer": "^1.0.2"
+    "react-virtualized-auto-sizer": "^1.0.2",
+    "ts-loader": "^8.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
-    "@fluid-experimental/property-binder": "^0.39.0",
-    "@fluid-experimental/property-changeset": "^0.39.0",
-    "@fluid-experimental/property-dds": "^0.39.0",
-    "@fluid-experimental/property-properties": "^0.39.0",
-    "@fluid-experimental/property-proxy": "^0.39.0",
-    "@fluidframework/build-common": "^0.22.0-0",
     "@hig/fonts": "^1.0.2",
     "@material-ui/core": "^4.0.0",
     "@material-ui/lab": "^4.0.0-alpha.16",
@@ -112,13 +96,14 @@
     "eslint": "~7.18.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "identity-obj-proxy": "^3.0.0",
-    "istanbul-instrumenter-loader": "^3.0.1",
     "jest": "^26.6.3",
     "jest-junit": "^10.0.0",
     "jest-transform-file": "^1.1.1",
     "jsdoc": "3.5.5",
     "lighthouse": "^5.2.0",
     "lodash.debounce": "^4.0.8",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "rimraf": "^2.6.2",
     "source-map-loader": "^0.2.4",
     "source-map-support": "^0.5.16",
@@ -137,11 +122,7 @@
     "webpack-merge": "^4.1.4"
   },
   "peerDependencies": {
-    "@fluid-experimental/property-binder": "^0.39.0",
-    "@fluid-experimental/property-changeset": "^0.39.0",
-    "@fluid-experimental/property-dds": "^0.39.0",
-    "@fluid-experimental/property-properties": "^0.39.0",
-    "@fluid-experimental/property-proxy": "^0.39.0",
-    "react": "^16.10.2"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
   }
 }
