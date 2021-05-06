@@ -1,3 +1,4 @@
 /dist/
 /nyc/
 *.log
+/node_modules/
