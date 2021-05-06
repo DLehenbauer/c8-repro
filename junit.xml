@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="167" failures="0" time="63.84">
+  <testsuite name="SearchBox" errors="0" failures="0" skipped="0" timestamp="2021-05-06T17:01:24" time="9.964" tests="7">
+    <testcase classname="SearchBox should show control buttons on focus" name="SearchBox should show control buttons on focus" time="0.254">
+    </testcase>
+    <testcase classname="SearchBox should cycle when going through results" name="SearchBox should cycle when going through results" time="0.058">
+    </testcase>
+    <testcase classname="SearchBox should go to next result on enter" name="SearchBox should go to next result on enter" time="0.024">
+    </testcase>
+    <testcase classname="SearchBox should go to previous result on shift + enter" name="SearchBox should go to previous result on shift + enter" time="0.019">
+    </testcase>
+    <testcase classname="SearchBox should change height on focus" name="SearchBox should change height on focus" time="0.043">
+    </testcase>
+    <testcase classname="SearchBox should show animation on search in progress" name="SearchBox should show animation on search in progress" time="0.015">
+    </testcase>
+    <testcase classname="SearchBox should not show animation on search" name="SearchBox should not show animation on search" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="InspectorTable" errors="0" failures="0" skipped="0" timestamp="2021-05-06T17:01:24" time="38.283" tests="37">
+    <testcase classname="InspectorTable toTableRows should adhere to 0 depth" name="InspectorTable toTableRows should adhere to 0 depth" time="0.006">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should adhere to n depth" name="InspectorTable toTableRows should adhere to n depth" time="0.006">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should add dummy child for expandable properties" name="InspectorTable toTableRows should add dummy child for expandable properties" time="0.003">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should work for the first level" name="InspectorTable toTableRows should work for the first level" time="0.01">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should stop at single references" name="InspectorTable toTableRows should stop at single references" time="0.015">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should stop at collections of references" name="InspectorTable toTableRows should stop at collections of references" time="0.015">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows depth should take precedence to addDummy flag" name="InspectorTable toTableRows depth should take precedence to addDummy flag" time="0.019">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should respect constants" name="InspectorTable toTableRows should respect constants" time="0.014">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should respect constants with deeply nested children" name="InspectorTable toTableRows should respect constants with deeply nested children" time="0.014">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows collections should infer proper typeids for children" name="InspectorTable toTableRows collections should infer proper typeids for children" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows collections arrays should include children for string array" name="InspectorTable toTableRows collections arrays should include children for string array" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows collections arrays should include children for int64 array" name="InspectorTable toTableRows collections arrays should include children for int64 array" time="0">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows collections should respect collection constants" name="InspectorTable toTableRows collections should respect collection constants" time="0.013">
+    </testcase>
+    <testcase classname="InspectorTable toTableRows should sort correctly" name="InspectorTable toTableRows should sort correctly" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable fillExpanded should work expansion of complex types" name="InspectorTable fillExpanded should work expansion of complex types" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable fillExpanded should work with maps" name="InspectorTable fillExpanded should work with maps" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable fillExpanded should work with arrays" name="InspectorTable fillExpanded should work with arrays" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable fillExpanded should work with set" name="InspectorTable fillExpanded should work with set" time="0.002">
+    </testcase>
+    <testcase classname="InspectorTable fillExpanded should work with set and other collections expanded" name="InspectorTable fillExpanded should work with set and other collections expanded" time="0.004">
+    </testcase>
+    <testcase classname="InspectorTable search should work for properties at the root on the name column" name="InspectorTable search should work for properties at the root on the name column" time="0.022">
+    </testcase>
+    <testcase classname="InspectorTable search should work for properties at the root on the value columns" name="InspectorTable search should work for properties at the root on the value columns" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable search should work based on dataGetter" name="InspectorTable search should work based on dataGetter" time="0.009">
+    </testcase>
+    <testcase classname="InspectorTable search should work when results appears both in the name and value column" name="InspectorTable search should work when results appears both in the name and value column" time="0.004">
+    </testcase>
+    <testcase classname="InspectorTable search should return the correct number of results" name="InspectorTable search should return the correct number of results" time="0.041">
+    </testcase>
+    <testcase classname="InspectorTable search should build rows on the fly" name="InspectorTable search should build rows on the fly" time="0.082">
+    </testcase>
+    <testcase classname="InspectorTable showNextMatchingResult should work for top-level properties" name="InspectorTable showNextMatchingResult should work for top-level properties" time="0.002">
+    </testcase>
+    <testcase classname="InspectorTable showNextMatchingResult should work for properties which are children of another properties" name="InspectorTable showNextMatchingResult should work for properties which are children of another properties" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable showNextMatchingResult should work when other items were expanded by user" name="InspectorTable showNextMatchingResult should work when other items were expanded by user" time="0.027">
+    </testcase>
+    <testcase classname="InspectorTable showNextMatchingResult should work when only found in top most element and nothing should be expanded" name="InspectorTable showNextMatchingResult should work when only found in top most element and nothing should be expanded" time="0.002">
+    </testcase>
+    <testcase classname="InspectorTable showNextMatchingResult should not expand current result" name="InspectorTable showNextMatchingResult should not expand current result" time="0.087">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should expand nonprimitives" name="InspectorTable expandAll should expand nonprimitives" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should expand nonprimitive collections" name="InspectorTable expandAll should expand nonprimitive collections" time="0">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should expand collections of primitives" name="InspectorTable expandAll should expand collections of primitives" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should expand collections of references" name="InspectorTable expandAll should expand collections of references" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should not expand reference" name="InspectorTable expandAll should not expand reference" time="0">
+    </testcase>
+    <testcase classname="InspectorTable expandAll should expand enum collections" name="InspectorTable expandAll should expand enum collections" time="0.001">
+    </testcase>
+    <testcase classname="InspectorTable sanitizePath should replace &quot;.&quot; and &quot;[&quot; to &quot;/&quot;, and &quot;]&quot; to &quot;&quot; " name="InspectorTable sanitizePath should replace &quot;.&quot; and &quot;[&quot; to &quot;/&quot;, and &quot;]&quot; to &quot;&quot; " time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="InspectorTable" errors="0" failures="0" skipped="0" timestamp="2021-05-06T17:01:24" time="61.675" tests="123">
+    <testcase classname="InspectorTable noDataPanel should show empty data panel if no data is passed" name="InspectorTable noDataPanel should show empty data panel if no data is passed" time="0.302">
+    </testcase>
+    <testcase classname="InspectorTable noDataPanel should show empty data panel if empty workspace is passed" name="InspectorTable noDataPanel should show empty data panel if empty workspace is passed" time="0.089">
+    </testcase>
+    <testcase classname="InspectorTable noDataPanel should show empty data panel if orphan property is passed" name="InspectorTable noDataPanel should show empty data panel if orphan property is passed" time="0.049">
+    </testcase>
+    <testcase classname="InspectorTable search should never find an occurrence of the dummy row" name="InspectorTable search should never find an occurrence of the dummy row" time="0.275">
+    </testcase>
+    <testcase classname="InspectorTable search should recompute search when the data props changes, when there was a match already" name="InspectorTable search should recompute search when the data props changes, when there was a match already" time="0.416">
+    </testcase>
+    <testcase classname="InspectorTable search should recompute search when the data props changes, when there was no match" name="InspectorTable search should recompute search when the data props changes, when there was no match" time="0.233">
+    </testcase>
+    <testcase classname="InspectorTable search should recompute search when state changes" name="InspectorTable search should recompute search when state changes" time="0.278">
+    </testcase>
+    <testcase classname="InspectorTable search should search and highlight matches on demand" name="InspectorTable search should search and highlight matches on demand" time="0.226">
+    </testcase>
+    <testcase classname="InspectorTable search should search and highlight nested matches on demand" name="InspectorTable search should search and highlight nested matches on demand" time="0.291">
+    </testcase>
+    <testcase classname="InspectorTable search should not search again when navigating to already found row" name="InspectorTable search should not search again when navigating to already found row" time="0.364">
+    </testcase>
+    <testcase classname="InspectorTable search should not highlight matches when search is closed" name="InspectorTable search should not highlight matches when search is closed" time="0.161">
+    </testcase>
+    <testcase classname="InspectorTable search should work when no results are found" name="InspectorTable search should work when no results are found" time="0.139">
+    </testcase>
+    <testcase classname="InspectorTable search should debounce filtering 250ms after last keystroke" name="InspectorTable search should debounce filtering 250ms after last keystroke" time="0.14">
+    </testcase>
+    <testcase classname="InspectorTable dataGetter should overwrite dataGetter" name="InspectorTable dataGetter should overwrite dataGetter" time="0.048">
+    </testcase>
+    <testcase classname="InspectorTable dataGetter should not overwrite null dataGetter" name="InspectorTable dataGetter should not overwrite null dataGetter" time="0.101">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives primitives should at least include properties from the list" name="InspectorTable PropertyCreation primitives primitives should at least include properties from the list" time="0.003">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for NodeProperty creation" name="InspectorTable PropertyCreation primitives property creation at root should work for NodeProperty creation" time="0.22">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Int8 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Int8 creation" time="0.247">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Uint8 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Uint8 creation" time="0.204">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Int16 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Int16 creation" time="0.168">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Uint16 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Uint16 creation" time="0.166">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Int32 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Int32 creation" time="0.162">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Int64 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Int64 creation" time="0.189">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Uint64 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Uint64 creation" time="0.178">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Uint32 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Uint32 creation" time="0.164">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Float32 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Float32 creation" time="0.141">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Float64 creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Float64 creation" time="0.139">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Bool creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Bool creation" time="0.137">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for String creation" name="InspectorTable PropertyCreation primitives property creation at root should work for String creation" time="0.19">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for Reference creation" name="InspectorTable PropertyCreation primitives property creation at root should work for Reference creation" time="0.156">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for NamedProperty creation" name="InspectorTable PropertyCreation primitives property creation at root should work for NamedProperty creation" time="0.139">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for NamedNodeProperty creation" name="InspectorTable PropertyCreation primitives property creation at root should work for NamedNodeProperty creation" time="0.142">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should work for RelationshipProperty creation" name="InspectorTable PropertyCreation primitives property creation at root should work for RelationshipProperty creation" time="0.148">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should not allow to create property with the same name" name="InspectorTable PropertyCreation primitives property creation at root should not allow to create property with the same name" time="0.251">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should not allow to create property with an empty name" name="InspectorTable PropertyCreation primitives property creation at root should not allow to create property with an empty name" time="0.118">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation at root should allow set creation only under NamedNodeProperty" name="InspectorTable PropertyCreation primitives property creation at root should allow set creation only under NamedNodeProperty" time="0.175">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation under collections should work for creation under array" name="InspectorTable PropertyCreation primitives property creation under collections should work for creation under array" time="0.237">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation under collections should work for creation under map" name="InspectorTable PropertyCreation primitives property creation under collections should work for creation under map" time="0.329">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation primitives property creation under collections should work for creation under set" name="InspectorTable PropertyCreation primitives property creation under collections should work for creation under set" time="0.246">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property creation for dynamic properties only should allow creation under node property" name="InspectorTable PropertyCreation property creation for dynamic properties only should allow creation under node property" time="0.214">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property creation for dynamic properties only should not allow creation under non-node property" name="InspectorTable PropertyCreation property creation for dynamic properties only should not allow creation under non-node property" time="0.082">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should provide context menu for deletion" name="InspectorTable PropertyCreation property deletion should provide context menu for deletion" time="0.08">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete custom property" name="InspectorTable PropertyCreation property deletion should delete custom property" time="0.368">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete element of static array" name="InspectorTable PropertyCreation property deletion should delete element of static array" time="0.463">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete element of static map" name="InspectorTable PropertyCreation property deletion should delete element of static map" time="0.378">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete primitive property from mix of static and dynamic" name="InspectorTable PropertyCreation property deletion should delete primitive property from mix of static and dynamic" time="0.288">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete custom property from mix of static and dynamic" name="InspectorTable PropertyCreation property deletion should delete custom property from mix of static and dynamic" time="0.363">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete array from mix of static and dynamic" name="InspectorTable PropertyCreation property deletion should delete array from mix of static and dynamic" time="0.296">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should delete array element from mix of static and dynamic" name="InspectorTable PropertyCreation property deletion should delete array element from mix of static and dynamic" time="0.381">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should provide context menu for deletion - array element" name="InspectorTable PropertyCreation property deletion should provide context menu for deletion - array element" time="0.225">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should provide context menu for deletion - map element" name="InspectorTable PropertyCreation property deletion should provide context menu for deletion - map element" time="0.184">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should not provide context menu entry for deletion of constant child" name="InspectorTable PropertyCreation property deletion should not provide context menu entry for deletion of constant child" time="0.158">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should not provide context menu for deletion of constant child - array" name="InspectorTable PropertyCreation property deletion should not provide context menu for deletion of constant child - array" time="0.111">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion should not provide context menu for deletion of constant child - array element" name="InspectorTable PropertyCreation property deletion should not provide context menu for deletion of constant child - array element" time="0.227">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion references should become invalid when referenced property is deleted" name="InspectorTable PropertyCreation property deletion references should become invalid when referenced property is deleted" time="0.311">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion references should become invalid when referenced reference is deleted" name="InspectorTable PropertyCreation property deletion references should become invalid when referenced reference is deleted" time="0.445">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation property deletion reference should point to the 2nd element of the array after the 1st is deleted" name="InspectorTable PropertyCreation property deletion reference should point to the 2nd element of the array after the 1st is deleted" time="0.524">
+    </testcase>
+    <testcase classname="InspectorTable PropertyCreation test callback parameters should correctly call callbacks" name="InspectorTable PropertyCreation test callback parameters should correctly call callbacks" time="0.136">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Float32" name="InspectorTable PropertyUpdate primitives should work for array of Float32" time="0.113">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Float32" name="InspectorTable PropertyUpdate primitives should work for map of Float32" time="0.107">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Float32" name="InspectorTable PropertyUpdate primitives should work for single of Float32" time="0.068">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Float64" name="InspectorTable PropertyUpdate primitives should work for array of Float64" time="0.132">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Float64" name="InspectorTable PropertyUpdate primitives should work for map of Float64" time="0.109">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Float64" name="InspectorTable PropertyUpdate primitives should work for single of Float64" time="0.076">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Int8" name="InspectorTable PropertyUpdate primitives should work for array of Int8" time="0.124">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Int8" name="InspectorTable PropertyUpdate primitives should work for map of Int8" time="0.109">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Int8" name="InspectorTable PropertyUpdate primitives should work for single of Int8" time="0.066">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Uint8" name="InspectorTable PropertyUpdate primitives should work for array of Uint8" time="0.11">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Uint8" name="InspectorTable PropertyUpdate primitives should work for map of Uint8" time="0.123">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Uint8" name="InspectorTable PropertyUpdate primitives should work for single of Uint8" time="0.074">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Int16" name="InspectorTable PropertyUpdate primitives should work for array of Int16" time="0.144">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Int16" name="InspectorTable PropertyUpdate primitives should work for map of Int16" time="0.178">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Int16" name="InspectorTable PropertyUpdate primitives should work for single of Int16" time="0.074">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Uint16" name="InspectorTable PropertyUpdate primitives should work for array of Uint16" time="0.166">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Uint16" name="InspectorTable PropertyUpdate primitives should work for map of Uint16" time="0.144">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Uint16" name="InspectorTable PropertyUpdate primitives should work for single of Uint16" time="0.083">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Int32" name="InspectorTable PropertyUpdate primitives should work for array of Int32" time="0.131">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Int32" name="InspectorTable PropertyUpdate primitives should work for map of Int32" time="0.127">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Int32" name="InspectorTable PropertyUpdate primitives should work for single of Int32" time="0.075">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Uint32" name="InspectorTable PropertyUpdate primitives should work for array of Uint32" time="0.131">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Uint32" name="InspectorTable PropertyUpdate primitives should work for map of Uint32" time="0.131">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Uint32" name="InspectorTable PropertyUpdate primitives should work for single of Uint32" time="0.089">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Enum inheriting" name="InspectorTable PropertyUpdate primitives should work for array of Enum inheriting" time="0.18">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Enum inheriting" name="InspectorTable PropertyUpdate primitives should work for map of Enum inheriting" time="0.157">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Enum inheriting" name="InspectorTable PropertyUpdate primitives should work for single of Enum inheriting" time="0.117">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of inline Enum" name="InspectorTable PropertyUpdate primitives should work for array of inline Enum" time="0.208">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of inline Enum" name="InspectorTable PropertyUpdate primitives should work for single of inline Enum" time="0.146">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Bool" name="InspectorTable PropertyUpdate primitives should work for single of Bool" time="0.129">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Int64" name="InspectorTable PropertyUpdate primitives should work for single of Int64" time="0.089">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of String" name="InspectorTable PropertyUpdate primitives should work for single of String" time="0.078">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Uint64" name="InspectorTable PropertyUpdate primitives should work for single of Uint64" time="0.104">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Bool" name="InspectorTable PropertyUpdate primitives should work for map of Bool" time="0.13">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Int64" name="InspectorTable PropertyUpdate primitives should work for map of Int64" time="0.162">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of String" name="InspectorTable PropertyUpdate primitives should work for map of String" time="0.137">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Uint64" name="InspectorTable PropertyUpdate primitives should work for map of Uint64" time="0.14">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Bool" name="InspectorTable PropertyUpdate primitives should work for array of Bool" time="0.13">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Int64" name="InspectorTable PropertyUpdate primitives should work for array of Int64" time="0.12">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of String" name="InspectorTable PropertyUpdate primitives should work for array of String" time="0.129">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Uint64" name="InspectorTable PropertyUpdate primitives should work for array of Uint64" time="0.152">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for array of Reference" name="InspectorTable PropertyUpdate primitives should work for array of Reference" time="0.175">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for map of Reference" name="InspectorTable PropertyUpdate primitives should work for map of Reference" time="0.204">
+    </testcase>
+    <testcase classname="InspectorTable PropertyUpdate primitives should work for single of Reference" name="InspectorTable PropertyUpdate primitives should work for single of Reference" time="0.122">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should mount correct view component for Bool" name="InspectorTable EditableValueCell should mount correct view component for Bool" time="0.076">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should render correct MaterialUI component for Bool" name="InspectorTable EditableValueCell should render correct MaterialUI component for Bool" time="0.081">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should mount correct view component for Enum" name="InspectorTable EditableValueCell should mount correct view component for Enum" time="0.081">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should render correct MaterialUI component for Enum" name="InspectorTable EditableValueCell should render correct MaterialUI component for Enum" time="0.083">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should mount correct view component for String" name="InspectorTable EditableValueCell should mount correct view component for String" time="0.097">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should render correct MaterialUI component for String" name="InspectorTable EditableValueCell should render correct MaterialUI component for String" time="0.078">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should mount correct view component for Uint8" name="InspectorTable EditableValueCell should mount correct view component for Uint8" time="0.111">
+    </testcase>
+    <testcase classname="InspectorTable EditableValueCell should render correct MaterialUI component for Uint8" name="InspectorTable EditableValueCell should render correct MaterialUI component for Uint8" time="0.079">
+    </testcase>
+    <testcase classname="InspectorTable Footer should be rendered" name="InspectorTable Footer should be rendered" time="0.049">
+    </testcase>
+    <testcase classname="InspectorTable Footer ExpandAll Button should be rendered" name="InspectorTable Footer ExpandAll Button should be rendered" time="0.052">
+    </testcase>
+    <testcase classname="InspectorTable Footer ExpandAll Button should populate the expanded array in InspectorTable state" name="InspectorTable Footer ExpandAll Button should populate the expanded array in InspectorTable state" time="0.05">
+    </testcase>
+    <testcase classname="InspectorTable Footer CollapseAll Button should be rendered" name="InspectorTable Footer CollapseAll Button should be rendered" time="0.056">
+    </testcase>
+    <testcase classname="InspectorTable Footer CollapseAll Button should empty the expanded array in InspectorTable state" name="InspectorTable Footer CollapseAll Button should empty the expanded array in InspectorTable state" time="0.06">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: Int8 to Int8" name="InspectorTable Reference editing reference modification should work: Int8 to Int8" time="0.658">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: Float64 to Float64" name="InspectorTable Reference editing reference modification should work: Float64 to Float64" time="0.446">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: String to String" name="InspectorTable Reference editing reference modification should work: String to String" time="0.49">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: String to Int" name="InspectorTable Reference editing reference modification should work: String to Int" time="0.402">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: cyclic reference" name="InspectorTable Reference editing reference modification should work: cyclic reference" time="0.488">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: cyclic reference with multiple nodes" name="InspectorTable Reference editing reference modification should work: cyclic reference with multiple nodes" time="0.486">
+    </testcase>
+    <testcase classname="InspectorTable Reference editing reference modification should work: reference -&gt; reference from array -&gt; int" name="InspectorTable Reference editing reference modification should work: reference -&gt; reference from array -&gt; int" time="1.838">
+    </testcase>
+    <testcase classname="InspectorTable overflowTooltip should show tooltip for very long texts in named cells" name="InspectorTable overflowTooltip should show tooltip for very long texts in named cells" time="0.181">
+    </testcase>
+  </testsuite>
+</testsuites>
